@@ -3,9 +3,8 @@
 # flow: building an .xclbin on the RCE cluster, and running it on the U50 host.
 #   source ./env.sh      (the Makefile does this for you)
 #
-# These are the same paths the hello-hls starter kit uses. /home is a shared mount,
-# so they resolve on every RCE build node AND on the U50 host (node08). If your
-# course set things up differently, this one file is the only thing to edit.
+# Paths are for the RCE cluster, where /home is a shared mount visible on every build
+# node and on the U50 host. On another machine, this is the only file to edit.
 
 # Vitis HLS + v++ (2025.1 is the version validated for the U50 on this cluster).
 source /home/Xilinx/2025.1/Vitis/settings64.sh

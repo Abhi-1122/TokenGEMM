@@ -1,2 +1,11 @@
+# Vitis / Vivado build outputs
 build/
+_x/
+.Xil/
+*.log
+*.jou
+
+# Local only
+copy/
+.claude/
 iter.md
